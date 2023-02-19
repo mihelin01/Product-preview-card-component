@@ -1,0 +1,106 @@
+body {
+    padding-top: 150px;
+    padding-left: 550px;
+    background-color: #f2ebe3;
+}
+
+div {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+#card {
+    width: 530px;
+    height: 430px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+  
+#left-section {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+  
+#right-section {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#upper-content {
+    letter-spacing: 5px;
+    font-size: 0.6rem;
+}
+  
+#image {
+    height: 100%;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#price, #old-price {
+    display: inline-block;
+}
+
+#price {
+    color: #3c8067;
+}
+
+#old-price {
+    position: relative;
+    margin-left: 5px;
+    top: -4px;
+    font-size: 0.7rem;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    color: #6c7289;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Fraunces';
+}
+
+#button-text p{
+    color: white;
+}
+
+#button-text, #button-image {
+    display: inline-block;
+}
+
+button {
+    position: relative;
+    background-color: #3c8067;
+    border: none;
+    width: 220px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3F965E;
+}
+
+#button-image {
+    padding: 7px;
+    position: relative;
+    top: 3px;
+}

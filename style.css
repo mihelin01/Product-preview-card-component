@@ -46,7 +46,7 @@ div {
   
 #image {
     height: 100%;
-    background-image: url("./images/image-product-desktop.jpg");
+    background-image: url("./assets/image-product-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
